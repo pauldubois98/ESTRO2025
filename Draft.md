@@ -12,6 +12,13 @@ We utilized a dataset of 168 patient CT scans (split 80-10-10 for training-valid
 
 The transformer model performed comparably to the baseline Unet in dose prediction accuracy. Both models demonstrated similar MAE and DVH deviation metrics; however, the transformer required significantly more training time due to the computational demands of attention mechanisms applied to 3D data. Transformer training time was approximately twice as long as Unet while showing minimal performance gain over the convolutional approach.
 
+### Performance Comparison of the Models
+
+Metric............ | U-net.. | Transformer
+-------------------+---------+------------
+3D dose MAE....... | 3.093Gy | 3.363Gy
+Mean DVH deviation | 1.942Gy | 2.252Gy
+
 ## Conclusions
 
 Our findings suggest that while transformer architectures can successfully process 3D medical imaging data, their computational demands may outweigh the benefits for dose prediction in radiotherapy, given minimal performance improvement over U-net-based models. The increased training time for transformers highlights a need for further optimization or hybrid approaches before they can be practically implemented in clinical workflows.
