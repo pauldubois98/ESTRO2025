@@ -16,8 +16,8 @@ The transformer model performed comparably to the baseline Unet in dose predicti
 
 Metric............ | U-net.. | Transformer
 -------------------+---------+------------
-3D dose MAE....... | 3.093Gy | 3.363Gy
-Mean DVH deviation | 1.942Gy | 2.252Gy
+3D dose MAE....... | 3.141Gy | 3.363Gy
+Mean DVH deviation | 1.942Gy | 2.052Gy
 
 ## Conclusions
 
