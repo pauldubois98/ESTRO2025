@@ -3,8 +3,8 @@
 
 <svg
    width="210mm"
-   height="115mm"
-   viewBox="0 0 210 115"
+   height="100mm"
+   viewBox="0 0 210 100"
    version="1.1"
    id="svg1"
    inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
@@ -38,10 +38,10 @@
      inkscape:current-layer="layer1" /><defs
      id="defs1"><inkscape:perspective
        sodipodi:type="inkscape:persp3d"
-       inkscape:vp_x="23.36802 : -119.03681 : 1"
+       inkscape:vp_x="23.36802 : -134.03676 : 1"
        inkscape:vp_y="0 : 1000.0001 : 0"
-       inkscape:vp_z="296.99999 : -86.999999 : 1"
-       inkscape:persp3d-origin="148.5 : -122.00001 : 1"
+       inkscape:vp_z="296.99999 : -102 : 1"
+       inkscape:persp3d-origin="148.5 : -136.99995 : 1"
        id="perspective293" /><clipPath
        clipPathUnits="userSpaceOnUse"
        id="clipPath4131"><path
@@ -302,7 +302,7 @@
      inkscape:groupmode="layer"
      id="layer1"><g
        id="g1"
-       transform="matrix(0.68791946,0,0,0.68791946,181.41782,-79.587421)"><path
+       transform="matrix(0.68791946,0,0,0.68791946,181.41782,-81.126361)"><path
          id="rect11095-9"
          style="fill:#8dd35f;fill-opacity:0.5;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:8;paint-order:fill markers stroke"
          d="m -110.14374,134.89882 h 95 l 53.05832,31.75 v 63.50001 l -53.05832,31.75 h -95 z"
@@ -601,14 +601,4 @@
            id="tspan11327-5"
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math Bold';fill:#cc2929;fill-opacity:1;stroke-width:2"
            x="-159.91243"
-           y="260.25937">Encoder</tspan></text></g><text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.87777778px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:round;paint-order:fill markers stroke"
-       x="104.05191"
-       y="112.68969"
-       id="text80"><tspan
-         sodipodi:role="line"
-         id="tspan80"
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Italic';stroke-width:4;font-size:9.87777778px"
-         x="104.05191"
-         y="112.68969">Convolutional Unet</tspan></text></g></svg>
+           y="260.25937">Encoder</tspan></text></g></g></svg>
