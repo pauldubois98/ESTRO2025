@@ -27,6 +27,8 @@ The transformer model performed comparably to the baseline U-net in dose predict
 | 3D dose MAE        | 3.141 Gy | 3.363 Gy       |
 | Mean DVH deviation | 1.942 Gy | 2.052 Gy       |
 
+**Table 1: _Performance Comparison of the Models._**
+
 ## Conclusions
 
 Our findings suggest that while transformer architectures can successfully process 3D medical imaging data, their computational demands may outweigh the benefits for dose prediction in radiotherapy, given minimal performance improvement over U-net-based models. The increased training time for transformers highlights a need for further optimization or hybrid approaches before they can be practically implemented in clinical workflows.
