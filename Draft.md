@@ -10,6 +10,9 @@ We utilized a dataset of 168 patient CT scans (split 80-10-10 for training-valid
 
 ### Network Architectures
 
+![Figure 1: Convolution U-net](architecture-convolution.svg)
+**Figure 1: _Convolution U-net._**
+
 ## Results
 
 The transformer model performed comparably to the baseline U-net in dose prediction (see table 1). Both models demonstrated similar MAE and DVH deviation metrics; however, the transformer required significantly more training time due to the computational demands of attention mechanisms applied to 3D data. Transformer training time was approximately twice as long as U-net while showing minimal performance gain over the convolutional approach.
