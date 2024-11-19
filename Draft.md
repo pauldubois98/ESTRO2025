@@ -24,3 +24,11 @@ Mean DVH deviation | 1.942Gy | 2.052Gy
 Our findings suggest that while transformer architectures can successfully process 3D medical imaging data, their computational demands may outweigh the benefits for dose prediction in radiotherapy, given minimal performance improvement over U-net-based models. The increased training time for transformers highlights a need for further optimization or hybrid approaches before they can be practically implemented in clinical workflows.
 
 However, one potential advantage of transformers is their ability to integrate multiple data modalities. This ability allows additional inputs, such as physicians' prescriptions, directly into the model, enabling more nuanced and customized dose predictions. Future work could explore this multi-modal approach to further leverage transformers' strengths in clinical applications.
+
+## References
+
+[1] Vaswani, A. (2017). Attention is all you need. Advances in Neural Information Processing Systems.
+
+[2] Parmar, N., Vaswani, A., Uszkoreit, J., Kaiser, L., Shazeer, N., Ku, A. & Tran, D.. (2018). Image Transformer. Proceedings of Machine Learning Research.
+
+[3] X. Liu, H. Lu, J. Yuan and X. Li, CAT: Causal Audio Transformer for Audio Classification, International Conference on Acoustics, Speech and Signal Processing.
