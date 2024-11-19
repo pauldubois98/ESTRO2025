@@ -22,10 +22,10 @@ The transformer model performed comparably to the baseline U-net in dose predict
 
 ### Performance Comparison of the Models
 
-Metric \ Model ... | 3D U-net | 3D Transformer
--------------------+----------+---------------
-3D dose MAE....... | 3.141 Gy | 3.363 Gy
-Mean DVH deviation | 1.942 Gy | 2.052 Gy
+| Metric \ Model     | 3D U-net | 3D Transformer |
+| ------------------ | -------- | -------------- |
+| 3D dose MAE        | 3.141 Gy | 3.363 Gy       |
+| Mean DVH deviation | 1.942 Gy | 2.052 Gy       |
 
 ## Conclusions
 
