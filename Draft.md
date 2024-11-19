@@ -8,10 +8,13 @@ Radiotherapy treatment planning seeks to maximize tumor control while sparing he
 
 We utilized a dataset of 168 patient CT scans (split 80-10-10 for training-validation-test). We also used the contours for Principal Target Volume (PTV) and Organs at Risk (OARs) used for treatment to compare the Dose-Volume Histograms (DVH). The model input consisted of CT scans and anatomical contours, with the output as the 3D dose prediction. We compared a 3D convolutional U-net and a transformer network, with self-attention layers substituting the convolutional layers of the U-net. The training was performed with a voxel-wise Mean Absolute Error (MAE) loss function on the 3D dose output and the DVH (this second loss helped the model focus on essential regions).
 
-### Network Architectures
+### Networks Architectures
 
 ![Figure 1: Convolution U-net](architecture-convolution.svg)
 **Figure 1: _Convolution U-net._**
+
+![Figure 2: Transformer architecture](architecture-transformer.svg)
+**Figure 2: _Transformer architecture._**
 
 ## Results
 
